@@ -2,8 +2,8 @@
 
 print("hello world");
 
-import pyjokes 
-jokes = pyjokes.get_joke()
+import pyjokes as pj
+jokes = pj.get_joke()
 print(jokes)
 
 
